@@ -1,0 +1,137 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+body {
+	padding: 0;
+	margin: 0;
+}
+button {
+	cursor: pointer;
+}
+.modal {
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(233.13deg, rgba(107, 149, 227, 0.8) 0%, rgba(103, 54, 107, 0.8) 100%), #62538B;
+}	
+.modal-block {
+	width: 670px;
+	position: relative;
+    height: 70%;
+}
+.header, .footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	padding: 0 48px;
+ }
+.header {
+	height: 101px;
+	background: linear-gradient(261.43deg, #6B95E3 0%, #6784D0 100%);
+    border-radius: 8px 8px 0 0;
+}
+.header button {
+ 	display: flex;
+    outline: none;
+    border: none;
+    background-color: #6a92e1;
+ }
+.header button img {
+ 	width: 19.41px;
+	height: 18.71px
+ }
+.header h2 {
+	font-weight: normal;
+	font-size: 22px;
+	line-height: 31px;
+	color: #FFFFFF;
+}
+.content {
+	display: flex;
+	width: 100%;
+	padding: 50px 48px 37px;
+	padding-right: 50px 0;
+	background: #FFFFFF;
+}
+.mail {
+	display: grid;
+	grid-template-columns: 401px 160px;
+	grid-column-gap: 10px;
+	width: 100%;
+}
+
+.footer {
+	height: 102px;
+	background: #FAFAFA;
+    border-radius: 0 0 8px 8px;
+    font-weight: normal;
+	font-size: 13px;
+	line-height: 18px;
+	border-top: 1px solid #E3E3E3;
+}
+.mail input {
+	padding-left: 19px;
+	border: 1px solid #DBDBDB
+}
+.user-bar {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+.user-one, .user-two {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.info, .share-button {
+	display: flex;
+}
+.user-one img, .user-two img {
+	width: 30px;
+	height: 30px;
+	border-radius: 3px;
+	margin: auto 0;
+}
+.user-one p, .user-two p {
+	font-weight: 600;
+	font-size: 13px;
+	line-height: 18px;
+	margin-left: 10px;
+	color: #666666;
+}
+.user-mail {
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 17px;
+	color: #888888;
+}
+.time p{
+	display: flex;
+	text-align: right; 
+	font-size: 11px;
+	line-height: 15px;
+	font-weight: normal;
+	color: #BABABA;
+}
+#cancel {
+	width: 90px;
+	height: 45px;
+	margin-right: 20px;
+	background: #FFFFFF;
+	border: 1px solid #DBDBDB;
+	border-radius: 3px;
+}
+#copy, #invite {
+	width: 160px;
+	height: 45px;
+	background: linear-gradient(0deg, rgba(45, 156, 219, 0.56), rgba(45, 156, 219, 0.56)), #AD78C9;
+	border-radius: 2.81458px;
+	outline: none;
+	border: none;
+	color: #FFFFFF;
+}
